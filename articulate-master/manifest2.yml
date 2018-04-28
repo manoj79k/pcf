@@ -1,0 +1,10 @@
+applications:
+- name: articulate-2
+  buildpack: java_buildpack
+  disk_quota: 1G
+  instances: 1
+  memory: 800M
+  random-route: true
+  services:
+  - attendee-service
+  stack: cflinuxfs2

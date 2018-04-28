@@ -1,0 +1,7 @@
+---
+applications:
+- name: articulate
+  path: target/articulate-0.0.3-SNAPSHOT.jar
+  random-route: true
+  memory: 768M 
+  buildpack: java_buildpack
